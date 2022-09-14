@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Computer labs in the School}{3}{0}{1}
+\beamer@sectionintoc {2}{Preparing a computer workshop}{20}{0}{2}
+\beamer@sectionintoc {3}{Helping students during labs}{26}{0}{3}
+\beamer@sectionintoc {4}{Putting it into practice}{54}{0}{4}
+\beamer@sectionintoc {5}{Resources}{55}{0}{5}

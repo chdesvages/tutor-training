@@ -1,0 +1,209 @@
+\documentclass[10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linktoc=none,
+    urlcolor=orange,
+    }
+
+\title{Tutoring in computer labs}
+\subtitle{SoM tutor induction}
+% \date{\today}
+\date{Wed 14th September 2022}
+\author{Charlotte Desvages}
+\institute{School of Mathematics}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+
+\begin{document}
+
+\setbeamercovered{transparent}
+\metroset{block=fill}
+
+\maketitle
+
+\begin{frame}{Overview}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents%[hideallsubsections]
+\end{frame}
+
+\section{Computer labs in the School}
+
+\begin{frame}[fragile]{Computer labs in SoM}
+
+    \begin{itemize}[<+->]
+        \item Most are \textbf{programming labs}, typically Python or R (with some exceptions).
+        \item Main opportunity for students to \textbf{practice} and get help from classmates/tutors.
+        \item Sometimes in computer lab room, sometimes in ``traditional'' workshop room (with students working on laptops).
+        \item Guidance for tutoring workshops also applies.
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Questions to ask your Course Organiser}
+
+    Different courses do computer labs differently, and for different purposes.
+    \pause
+
+    \begin{itemize}[<+->]
+        \item \textbf{Learning outcomes} related to computing?
+            \begin{itemize}
+                \item general programming skills
+                \item mathematical/statistical computing
+                \item proficiency with a particular piece of software
+                \item etc\ldots
+            \end{itemize}
+        \item \textbf{Software/platforms} students are expected to use in the course?
+            \begin{itemize}
+                \item Install/set up your own machine with the same workflow.
+            \end{itemize}
+        \item Are students expected to \textbf{collaborate} during the workshops?
+            \begin{itemize}
+                \item If so, how? (informally, in groups of 3+, pair programming\ldots)
+                \item If tasks are assessed, what is acceptable collaboration?
+            \end{itemize}
+        \item \textbf{Marking and feedback:} what, how, and when?
+    \end{itemize}
+
+  
+\end{frame}
+
+\section{Preparing a computer workshop}
+
+\begin{frame}[fragile]{Preparation}
+    \begin{itemize}[<+->]
+        \item CO will provide task and solutions in advance.
+        \item \textbf{Try} the task yourself \textbf{without looking at solutions}.
+            \begin{itemize}
+                \item Anticipate different ways that students might think about the task, and where they might get stuck.
+                \item Make notes of any useful bits of lecture notes, software documentation, or previous weeks' exercises to refer to.
+            \end{itemize}
+        \item Ideally, keep the model solution only to check that results are correct. Students come up with lots of creative ways to solve a task -- meet them where they are!
+    \end{itemize}
+\end{frame}
+
+\section{Helping students during labs}
+
+\begin{frame}{Helping students during labs}
+    Same principles as for maths workshops:
+    \begin{itemize}
+        \item Don't give away the solution.
+        \item Ask students to explain their thinking to you and to each other.
+        \item Give pointers to course materials, documentation, etc.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Common questions and problems}
+    \setbeamercovered{invisible}
+    \begin{itemize}
+        \item ``I don't know where to start\ldots''
+        \item ``What does this function do?'' \onslide<3->{\alert{I don't know, let's find out!}}
+        \item ``Is this correct/will this work?'' \onslide<4->{\alert{I don't know, let's find out!}}
+        \item ``This is not working.''
+    \end{itemize}
+    \pause
+    Two of these questions are easy to answer\ldots
+    \setbeamercovered{transparent}
+\end{frame}
+
+\begin{frame}{I don't know where to start!}
+    Translating problem to code is a skill that needs practice!
+    \pause
+
+    A useful guide: \href{https://adhilton.pratt.duke.edu/sites/adhilton.pratt.duke.edu/files/u37/iticse-7steps.pdf}{the \alert{Seven Steps} method}.
+    \begin{itemize}[<+->]
+        \item Get some \textbf{pen and paper}.
+        \item Work out \textbf{an example by hand}.
+        \item \textbf{Retrace your steps}: write down exactly what you've done.
+        \item \textbf{Generalise} the steps above to arbitrary values.
+        \item \textbf{Test} your procedure on a \text{different} example.
+        \item Then, and \alert{only} then, translate to code.
+        \item Test your programme on more examples.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{This is not working\ldots}
+    \metroset{block=fill}
+    \begin{exampleblock}{Teach a man to fish\ldots}
+        Tutoring is \textbf{not} debugging students' code for them -- it's helping them to develop the right habits to troubleshoot their own problems.
+
+        Computer labs can be the only place and time for students to learn to find and fix bugs, with guidance and support from tutors.
+    \end{exampleblock}
+    \pause
+    \textbf{Resist the temptation to take the keyboard away from a student!}
+    
+    \begin{itemize}
+        \item Student won't remember what you've done.
+        \item Very easy to use keyboard shortcuts without the student noticing.
+        \item Very easy to skip explaining steps because we are used to them.
+        \item \alert{\emph{Very easy to accidentally convince a student that debugging requires expert knowledge that they do not have.}}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{This is not working\ldots}
+    Even though they provide incredibly useful information, novice coders are often fearful of \textbf{error messages}.
+
+    \begin{itemize}[<+->]
+        \item As soon as a student comes to you with a runtime error: ``let's look at the error message.''
+        \item Help them interpret the information there:
+            \begin{itemize}
+                \item \textbf{Where} is the error in your code?
+                \item What \textbf{type} of error is this? Do you remember seeing an error like this before?
+                \item Googling an obscure error message can be helpful!
+            \end{itemize}
+    \end{itemize}
+
+    \pause
+    \textbf{Demystifying} errors is important to give students confidence. It's absolutely fine (I'd even say, encouraged) to say ``I don't know'', to ask for help from other tutors or students in the room, to run broken code, to spend a lot of time tracking down a bug with a student.
+\end{frame}
+
+\begin{frame}{Practical strategies: the rubber duck}
+    For structure or logical issues: \href{https://rubberduckdebugging.com/}{\alert{Rubber duck debugging}}
+    \pause
+
+    \begin{exampleblock}{Become the rubber duck.}
+        Ask students to explain to you, \textbf{line by line, in excruciating detail,} what their code is doing.
+
+        In the large majority of cases, they will find their mistake as they're explaining it.
+    \end{exampleblock}
+
+    \pause
+    As a tutor, you can be a slightly more active rubber duck.
+    \begin{itemize}[<+->]
+        \item \textbf{Ask prompting questions} to help students through the explanation. (Are you sure? How does that function work? How many times do you do this? Let's try an example; etc.)
+        \item Encourage them to \textbf{Google things}, and to reuse code snippets responsibly. (Ask me later about citing code appropriately!)
+        \item Encourage them to \textbf{display} intermediate values, or plot results, to check that their code is actually doing what they intend.
+    \end{itemize}
+\end{frame}
+
+\section{Putting it into practice}
+
+\section{Resources}
+
+\begin{frame}{Resources}
+    \begin{itemize}
+        \item The Seven Steps method: \href{http://adhilton.pratt.duke.edu/sites/adhilton.pratt.duke.edu/files/u37/iticse-7steps.pdf}{poster (linked above)} and accompanying \href{https://dl.acm.org/doi/10.1145/3300115.3309508}{paper} with further details.
+        \item The \href{https://teachcomputing.org/pedagogy}{Teach Computing} project has a good collection of resources. Highlights on 2 resources to support program comprehension:
+            \begin{itemize}
+                \item \href{https://blog.teachcomputing.org/code-tracing/}{Code tracing}
+                \item The \href{https://blog.teachcomputing.org/quick-read-understanding-program-comprehension-using-the-block-model/}{block model}
+            \end{itemize}
+        \item Brown, N., \& Wilson, G. (2018). Ten quick tips for teaching programming. PLoS computational biology, 14(4), e1006023. \url{https://doi.org/10.1371/journal.pcbi.1006023}
+        \item The \href{https://computinged.wordpress.com/about/}{Computing Education Research Blog} by Prof. Mark Guzdial at the University of Michigan.
+        \item Software Carpentry's \href{https://carpentries.github.io/instructor-training/}{instructor training material}. Includes evidence-based, practical advice on supporting students in learning computing.
+    \end{itemize}
+\end{frame}
+
+\end{document}
