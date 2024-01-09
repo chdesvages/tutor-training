@@ -1,5 +1,5 @@
-\beamer@sectionintoc {1}{Computer labs in the School}{3}{0}{1}
-\beamer@sectionintoc {2}{Preparing a computer workshop}{21}{0}{2}
-\beamer@sectionintoc {3}{Helping students during labs}{27}{0}{3}
-\beamer@sectionintoc {4}{Putting it into practice}{55}{0}{4}
-\beamer@sectionintoc {5}{Resources}{56}{0}{5}
+\beamer@sectionintoc {1}{Computer labs in the School}{4}{0}{1}
+\beamer@sectionintoc {2}{Preparing a computer workshop}{22}{0}{2}
+\beamer@sectionintoc {3}{Helping students during labs}{28}{0}{3}
+\beamer@sectionintoc {4}{Putting it into practice}{56}{0}{4}
+\beamer@sectionintoc {5}{Resources}{57}{0}{5}
