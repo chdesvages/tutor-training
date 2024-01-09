@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.28)  14 SEP 2023 10:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.28)  9 JAN 2024 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1338,7 +1338,7 @@ Package rerunfilecheck Info: File `tutor_induction.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  31986 strings out of 481239
- 776563 string characters out of 5920377
+ 776559 string characters out of 5920377
  1161166 words of memory out of 5000000
  46404 multiletter control sequences out of 15000+600000
  539735 words of font info for 50 fonts, out of 8000000 for 9000
@@ -1353,7 +1353,7 @@ public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on tutor_induction.pdf (57 pages, 171710 bytes).
+Output written on tutor_induction.pdf (57 pages, 171962 bytes).
 PDF statistics:
  431 PDF objects out of 1000 (max. 8388607)
  353 compressed objects within 4 object streams
